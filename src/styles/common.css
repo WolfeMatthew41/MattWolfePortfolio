@@ -1,0 +1,144 @@
+div.layout {
+    background: radial-gradient(at top left, #707070 0%, rgb(53, 53, 53) 100%);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+div.stretchedParts, div.resumePart, div.contactPart{
+    background: radial-gradient(at top left, #707070 0%, rgb(53, 53, 53) 100%);
+    background-repeat: no-repeat;
+}
+h3{
+    text-align: left;
+    font-size: 150%;
+    font: bold;
+}
+h4{
+    text-align: right;
+    font-size: 150%;
+    font: bold;
+}
+/*-----------------------Top Part of the page*/
+div.topPart{
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+div.icons{
+    font-size: 30px;
+}
+img.icons{
+    max-width: 2%;
+    min-width: 1%;
+}
+div.pageScroll{
+    font-size: 150%;
+    padding-top: 3%;
+}
+img.pageScroll{
+    max-width: 2%;
+    min-width: 1%;
+}
+/*------------------------Projects Part*/
+div.projectOut{
+    padding: 0.5% 0%;
+}
+div.project{
+    background-color: #393939;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+div.projectImage{
+    display: flex;
+    align-items: center;
+    padding: 0.5% 0.5%;
+    justify-content: center;
+}
+img.projectImage{
+    max-width: 20%;
+    min-width: 50%;
+}
+div.projectBox{
+    justify-content: left;
+}
+div.projectLinkText{
+    display: flex;
+    flex-direction: row;
+    align-items: bottom;
+    text-align: bottom;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.projectLink{
+    color: white;
+    padding: 3% 0.1%;
+}
+a.projectLink:hover{
+    color: white;
+}
+button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.details{
+    background-color: #424242;
+    text-align: center;
+    padding: 0% 20%;
+    font-size: 120%;
+}
+div.projectText{
+    text-align: left;
+    padding: 0% 2.5%;
+    font-size: 120%;
+}
+/*------------------------Projects Part Alt*/
+div.projectAlt{
+    background-color: #393939;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+}
+div.projectLinkTextAlt{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.projectTextAlt{
+    text-align: right;
+    padding: 0% 2.5%;
+    font-size: 120%;
+}
+/*------------------------Resume Part*/
+div.resumePart{
+    text-align: center;
+    font-size: 150%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+div.resume{
+    justify-content: center;
+    align-items: center;
+}
+img.resume{
+    max-width: 100%;
+    min-width: 50%;
+}
+/*------------------------Contact Part*/
+div.contactPart{
+    text-align: center;
+    font-size: 150%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,15 @@
+.mainText{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.mainText h1{
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    font: bold;
+}
+.mainText h2{
+    font-size: 18px;
+    font: bold;
+}

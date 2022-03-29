@@ -1,0 +1,50 @@
+.navBarStyle{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /*align-items: center;*/
+    padding: 0px 0px;
+    width: 100%;
+    height: 8%;
+    /*min-width: 1000px;*/
+}
+.navBarStyle h1{
+    font-size: 50px;
+    font: bold;
+}
+.navBarStyle h2{
+    font-size: 18px;
+    font: bold;
+}
+.navBarLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding: 0px 0.5%;
+    max-width: 25%;
+    min-width: 25%;
+}
+.navBarBtn{
+    display: flexbox;
+    flex-direction: row;
+    color: white;
+    font-size: 150%;
+    padding: 15% 16px;
+    font-weight: 500;
+    justify-content: right;
+    align-items: center;
+}
+.navBarBtn:hover{
+    background: #393939;
+    color: white;
+}
+.navBarUnderBar{
+    transform: scaleX(1);
+    max-width: 60%;
+    min-width: 20%;
+    max-height: 100%;
+}
