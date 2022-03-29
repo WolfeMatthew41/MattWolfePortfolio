@@ -17,7 +17,7 @@ module.exports = {
     author: `@lekoarts_de`,
   },*/
   plugins: [
-/*
+
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
@@ -57,6 +57,6 @@ module.exports = {
         reportFilename: `_bundle.html`,
         openAnalyzer: false,
       },
-    },*/
+    },
   ].filter(Boolean),
 }
